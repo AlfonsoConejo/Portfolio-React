@@ -1,0 +1,45 @@
+.subtitle{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.cards{
+    margin-top: 30px;;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 49%;
+    display: flex;
+    border-radius: 30px;
+    justify-content: left;
+    background-color: #313338;
+    margin-bottom: 10px;
+}
+
+.cards p {
+    text-align: justify;
+}
+
+.card-image{
+    width: 200px;
+    max-width: 200px;
+    margin: auto;
+}
+
+.card-image img{
+    width: 100%;
+    border-radius: 20px; 
+}
+.cards .description{
+    padding: 20px 15px;
+}
+.description .job-description{
+    padding-top: 15px;
+    /* height: 40%; */
+}
+
+.description .period{
+    padding-top: 15px;
+}
